@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  display: flex;
+}
+
+main {
+  flex: 7;
+  text-align: center;
+}
+
+.container-sm{
+  width: 30% !important;
+} 
+
+.card-container {
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 2px;
+}
+
+.text-title {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.number {
+  color: #fff;
+  font-size: 3rem;
+  text-align: end;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.active {
+  display: none;
+}
+
+main .table {
+  width: 100%;
+}
+
+main .input .form-inline {
+  width: 100% !important;
+  display: inline-block !important;
+}
+
+main .input .form-control {
+  width: 60% !important;
+}
+
+.add-form {
+  padding: 20px;
+}
+
+.layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+  width: 100%;
+  align-items: center;
+  justify-content: end !important;
+  padding: 0.8rem 4rem;
+}
+
+.layout h3 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.section-title {
+  width: 100%;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #4e52b6;
+}
+
+
+.update {
+  width: 84%;
+}
+
+.update-form {
+  width: 80%;
+  margin-top: 10rem;
+  display: none !important;
+}
+
+
+.delete-form h2 {
+  margin-top: 3rem;
+}
+
+.delete-form .delete-div {
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+.view-form .view .view-div {
+  margin-top: 20px;
+}
+
+.add-form .add-form-div {
+  margin-bottom: 40px;
+}
+
+.add-form .add-form-div h3 {
+  font-size: 1.1em;
+}
+
+.container form .vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 0.8em;
+}
+
+.dept-list {
+  width: 50% !important;
+}
+
+.btn-submit {
+  background-color: #4e52b6;
+  border: none;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.b {
+  height: 15px;
+}
+
+.details {
+  width: 100%;
+}
+
+.md1 {
+  margin-left: 5rem !important;
+}
+
+.head {
+  background-color: #4e52b6;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  padding: 5px;
+}
+
+.head h2 {
+  color: #fff;
+  font-weight: 500;
+}
+.head h5 {
+  color: #fff;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 16px !important;
+}
+
+h3 > span {
+  margin-left: 15px;
+}
+
+#main-form {
+  display: none;
+}
+
+.none {
+  display: none !important;
+}
+
+.block {
+  display: block !important;
+} 

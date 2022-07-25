@@ -1,0 +1,31 @@
+.nav-bar {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+}
+
+.wrapper {
+  width: 100%;
+  padding: .6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+
+.left {
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right .user {
+  margin-right: 1rem;
+  font-size: 18px;
+  cursor: default;
+}
